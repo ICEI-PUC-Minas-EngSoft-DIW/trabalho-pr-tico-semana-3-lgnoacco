@@ -7,3 +7,5 @@
 ## Print da tela da página criada (Curriculum Vitae)
 
 `<Coloque aqui o print da tela do Curriculum Vitae>`
+
+<img src = "Curriculoprint.png" alt = "Print do curriculo" >
