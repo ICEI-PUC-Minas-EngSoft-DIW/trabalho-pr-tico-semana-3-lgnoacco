@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currículo | Luis Guilherme Pacheco Noacco</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </head>
 <body>
-    
+
+<!-- Botão para imprimir o currículo em PDF Lembrar de arrumar -->
+
+<button id="btnDownload" class="print-btn">Imprimir em PDF</button>
+
+    <div class="container">
+        <header>
+            <div class="header-content">    
+                <img src="FotoLuisNoacco.jpg" alt="Minha Foto" class="profile-img">
+                <div class="header-text">
+                    <h1>Luis Guilherme Pacheco Noacco</h1>
+                    <p class="subtitle">Estudante de Engenharia de Software | Full Stack Developer</p>
+                    <div class="contact-info">  
+                        <span>Belo Horizonte, MG</span>
+                        <span>•</span>
+                        <a href="https://github.com/lgnoacco" target="_blank" rel="noopener">github.com/lgnoacco</a>
+                        <span>•</span>
+                        <a href="https://www.linkedin.com/in/luisnoacco/" target="_blank" rel="noopener">linkedin.com/in/luisnoacco/</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <h2>Educação</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span>Bacharelado em Engenharia de Software</span>
+                    <span>2026 — 2030</span>
+                </div>
+                <div class="item-sub">PUC Minas</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">TypeScript / Node.js</span>
+                <span class="skill-tag">PHP / MVC</span>
+                <span class="skill-tag">Flutter / Dart</span>
+                <span class="skill-tag">SQL Server / MySQL</span>
+                <span class="skill-tag">Git / GitHub</span>
+                <span class="skill-tag">SaaS Development</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certificados</h2>
+            <div class="item">
+                <div class="item-header">DataAnalytics Essentials</div>
+                <div class="item-sub">Cisco Networking Academy | 2024</div>
+            </div>
+            <div class="item">
+                <div class="item-header">Digital Awareness</div>
+                <div class="item-sub">Cisco Networking Academy | 2024</div>  
+            </div>
+        </section>
+
+        <section>
+            <h2>Projetos de Impacto</h2>
+            <div class="project-box">
+                <div class="item-header">
+                    <a href="https://github.com/arthuralmeidareis/Fit_Bite" target="_blank" rel="noopener" class="project-link">
+                        FitBite — Gestão de Catálogo 🔗
+                    </a>
+                </div>
+                <ul>
+                    <li>Arquitetura MVC completa para separação de responsabilidades.</li>
+                    <li>Foco em performance e interface minimalista.</li>
+                </ul>
+            </div>
+
+            <div class="project-box">
+                <div class="item-header">LicitaBot — GovTech Automation</div>
+                <ul>
+                    <li>Automação de monitoramento de editais públicos.</li>
+                    <li>Solução escalável voltada para o mercado de Bidding.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
